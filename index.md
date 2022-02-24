@@ -10,6 +10,10 @@ This page contains will eventually contain a series of links to related case stu
 
 ### Election Forecasting
 
+**Forecasting US Presidential elections
+
+* [This]() is an extension from earlier work with G. Elliott Morris and Andrew Gelman. I provide a sensible approach to prior choices by estimating the distributions simultaneously from pre-election polls from previous elections. I further model both unemployment and approval rather than treating them directly as data and estimate the covariance matrix of the random walk with MRP from survey data to directly access how vote intentions change over time.
+
 **Forecasting Presidential Elections in France**
 
 * [This](https://github.com/MerlinHeidemanns/election_forecast_france) project builds on earlier work on U.S. elections. It extends that work by combining three separate forecasts based on polling, fundamentals, and historical trends. It improves the model's ability to estimate trends in polling numbers through Gaussian processes learning from dynamics during previous election cycles. It further considers a case in which the number of candidates is larger than one and methods to improve sampling speed.
