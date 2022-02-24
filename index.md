@@ -8,7 +8,11 @@ When I am not looking at parameter output I enjoy visiting art galleries -- tryi
 
 This page contains will eventually contain a series of links to related case studies.
 
-### French Election
+### Election Forecasting
+
+**Forecasting Presidential Elections in France**
+
+* [This](https://github.com/MerlinHeidemanns/election_forecast_france) project builds on earlier work on U.S. elections. It extends that work by combining three separate forecasts based on polling, fundamentals, and historical trends. It improves the model's ability to estimate trends in polling numbers through Gaussian processes learning from dynamics during previous election cycles. It further considers a case in which the number of candidates is larger than one and methods to improve sampling speed.
 
 
 
