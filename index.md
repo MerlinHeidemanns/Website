@@ -14,7 +14,9 @@ This page contains will eventually contain a series of links to related case stu
 
 * [This](https://github.com/MerlinHeidemanns/election_forecast_france) project builds on earlier work on U.S. elections. It extends that work by combining three separate forecasts based on polling, fundamentals, and historical trends. It improves the model's ability to estimate trends in polling numbers through Gaussian processes learning from dynamics during previous election cycles. It further considers a case in which the number of candidates is larger than one and methods to improve sampling speed.
 
+**Poll Aggregation during French Primaries**
 
+* [Here](https://github.com/MerlinHeidemanns/french_primaries), I consider the problem when we want to aggregate surveys that cover subsets of the potential answer options. During French primaries, pollsters will test hypotheses, i.e. whom would voters vote for if candidate X were to run. This model uses transition probabilities, i.e. how voters change between candidates when given different sets to choose from to allow us to compare two candidates whom no survey ever include at the same time. 
 
 ### Bayesian Survey Research Methods
 
