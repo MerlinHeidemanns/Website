@@ -10,7 +10,7 @@ When I am not looking at parameter output I enjoy visiting art galleries -- tryi
 
 ### Elections
 
-**Forecasting US Presidential elections
+**Forecasting US Presidential elections**
 
 * [This](https://github.com/MerlinHeidemanns/dynamic_bayes_forecasting) is an extension from [earlier work](https://projects.economist.com/us-2020-forecast/president) with G. Elliott Morris and Andrew Gelman. I provide a sensible approach to prior choices by estimating the distributions simultaneously from pre-election polls from previous elections. I further model both unemployment and approval rather than treating them directly as data and estimate the covariance matrix of the random walk with MRP from survey data to directly access how vote intentions change over time.
 
@@ -25,6 +25,7 @@ When I am not looking at parameter output I enjoy visiting art galleries -- tryi
 **Absentee Ballot Rejection Rates**
 
 * [This](https://github.com/MerlinHeidemanns/absentee_ballot_rejection_rates) work grapples with the potential consequences of absentee ballot rejections for election outcomes and how these vary across socio-demographic and socio-economic group. I develop a multistage ecological inference model to estimate rates of absentee ballot requests, submissions, and rejections for different racial groups in the US. I also use MRP and voter files to estimate how higher rates of absentee voting could shift election outcomes.
+  * This research was published by The Economist ([1](https://www.economist.com/graphic-detail/2020/10/24/postal-voting-could-put-americas-democrats-at-a-disadvantage), [2](https://www.economist.com/graphic-detail/2020/09/24/in-america-your-absentee-ballot-is-more-likely-to-be-counted-if-youre-white))
 
 ### Other
 
