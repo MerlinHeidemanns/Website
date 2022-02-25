@@ -4,3 +4,5 @@ description: This site provides links to ongoing and past case studies. Feel fre
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+github:
+  is_project_page: false
