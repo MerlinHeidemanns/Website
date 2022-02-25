@@ -29,6 +29,8 @@ When I am not looking at parameter output I enjoy visiting art galleries -- tryi
 
 ### Other
 
+**Hidden Markov Models**
+
 * [This](https://github.com/MerlinHeidemanns/rstanmsm) repository contains a package to make it easier to estimate hidden Markov models in Stan. 
 
 
