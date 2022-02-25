@@ -6,13 +6,13 @@ My name is Merlin Heidemanns and I am currently a Ph.D candidate in Political Sc
 
 When I am not looking at parameter output I enjoy visiting art galleries -- trying to see as many Feiningers in person as possible -- as well as backpacking.
 
-This page contains will eventually contain a series of links to related case studies.
+## Work
 
-### Election Forecasting
+### Elections
 
 **Forecasting US Presidential elections
 
-* [This]() is an extension from earlier work with G. Elliott Morris and Andrew Gelman. I provide a sensible approach to prior choices by estimating the distributions simultaneously from pre-election polls from previous elections. I further model both unemployment and approval rather than treating them directly as data and estimate the covariance matrix of the random walk with MRP from survey data to directly access how vote intentions change over time.
+* [This](https://github.com/MerlinHeidemanns/dynamic_bayes_forecasting) is an extension from [earlier work](https://projects.economist.com/us-2020-forecast/president) with G. Elliott Morris and Andrew Gelman. I provide a sensible approach to prior choices by estimating the distributions simultaneously from pre-election polls from previous elections. I further model both unemployment and approval rather than treating them directly as data and estimate the covariance matrix of the random walk with MRP from survey data to directly access how vote intentions change over time.
 
 **Forecasting Presidential Elections in France**
 
@@ -22,7 +22,13 @@ This page contains will eventually contain a series of links to related case stu
 
 * [Here](https://github.com/MerlinHeidemanns/french_primaries), I consider the problem when we want to aggregate surveys that cover subsets of the potential answer options. During French primaries, pollsters will test hypotheses, i.e. whom would voters vote for if candidate X were to run. This model uses transition probabilities, i.e. how voters change between candidates when given different sets to choose from to allow us to compare two candidates whom no survey ever include at the same time. 
 
-### Bayesian Survey Research Methods
+**Absentee Ballot Rejection Rates**
+
+* [This](https://github.com/MerlinHeidemanns/absentee_ballot_rejection_rates) work grapples with the potential consequences of absentee ballot rejections for election outcomes and how these vary across socio-demographic and socio-economic group. I develop a multistage ecological inference model to estimate rates of absentee ballot requests, submissions, and rejections for different racial groups in the US. I also use MRP and voter files to estimate how higher rates of absentee voting could shift election outcomes.
+
+### Other
+
+* [This](https://github.com/MerlinHeidemanns/rstanmsm) repository contains a package to make it easier to estimate hidden Markov models in Stan. 
 
 
 
